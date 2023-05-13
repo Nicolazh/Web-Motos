@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/nav/motoo.png" />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <!-- Navegacion -->
+    <header>
+      <nav>
+        <img class="nav-img" src="assets/nav/motoo.png" alt="logo" />
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Precios</a></li>
+          <li><a href="">Modelos</a></li>
+          <li><a href="">Info</a></li>
+        </ul>
+        <input type="submit" value="Contacto" class="nav_boton" />
+      </nav>
+    </header>
+    <!-- Fin navegacion -->
+    <main>
+      <!-- Inicio hero -->
+      <section>
+        <div class="hero">
+          <video autoplay muted loop class="mivideo">
+            <source src="assets/main/CRF250.mp4" type="video/mp4" />
+            no soporta
+          </video>
+          <h2 class="main_grande">Honda crf 250r</h2>
+          <p class="main_chico">
+            La Honda 250R es una motocicleta deportiva de 250cc fabricada por
+            Honda. Es una motocicleta ligera y ágil, diseñada para ofrecer un
+            rendimiento deportivo y una excelente maniobrabilidad
+          </p>
+          <input type="submit" class="main_boton" value="Comprar" />
+          <div class="main_imagen">
+            <img src="assets/main/crf250.png" alt="Crf" class="imagen" />
+          </div>
+        </div>
+      </section>
+      <!-- Fin hero -->
+      <!-- Inicio cards -->
+      <section>
+        <div class="cards">
+          <div>
+            <h2 class="titulo">Distintas Motocicletas</h2>
+            <p class="text">
+              Se encuentras diferentes motocicletas para distintos escenarios
+            </p>
+          </div>
+          <div class="cards-orden">
+            <div class="cards-1">
+              <img src="assets/cards/gp.png" alt="Pista" class="icono" />
+              <h3 class="cards-titulo">pista</h3>
+              <p class="cards-text">
+                Las motos de pista son motocicletas diseñadas específicamente
+                para competiciones de velocidad en circuitos cerrados.
+              </p>
+              <input type="submit" class="cards-boton" value="Mas info" />
+            </div>
+
+            <div class="cards-2">
+              <img src="assets/cards/vento.png" alt="Calle" class="icono" />
+              <h3 class="cards-titulo">calle</h3>
+              <p class="cards-text">
+                Las motos de calle son vehículos de dos ruedas diseñados para
+                circular principalmente en carreteras y vías públicas
+                pavimentadas.
+              </p>
+              <input type="submit" class="cards-boton" value="Mas info" />
+            </div>
+
+            <div class="cards-3">
+              <img src="assets/cards/quad.png" alt="quad" class="icono" />
+              <h3 class="cards-titulo">quad</h3>
+              <p class="cards-text">
+                Una moto quad es un vehículo de cuatro ruedas diseñado para ser
+                utilizado en terrenos difíciles y accidentados.
+              </p>
+              <input type="submit" class="cards-boton" value="Mas info" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin cards -->
+      <!-- Inicio galery -->
+      <section>
+        <div class="galery">
+          <div class="galery-text">
+            <h2>Galeria</h2>
+            <div class="galery-parrafo">
+              <p>Que motocicletas podes encontrar</p>
+            </div>
+          </div>
+          <div class="galery-imagenes">
+            <img
+              class="img-1"
+              src="assets/galeria/pista.jpeg"
+              height="200px"
+              alt=""
+            />
+            <img
+              class="img-1"
+              src="assets/galeria/pista.jpeg"
+              height="200px"
+              alt=""
+            />
+            <img
+              class="img-1"
+              src="assets/galeria/pista.jpeg"
+              height="200px"
+              alt=""
+            />
+            <img
+              class="img-1"
+              src="assets/galeria/pista.jpeg"
+              height="200px"
+              alt=""
+            />
+            <img
+              class="img-1"
+              src="assets/galeria/pista.jpeg"
+              height="200px"
+              alt=""
+            />
+            <img
+              class="img-1"
+              src="assets/galeria/pista.jpeg"
+              height="200px"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Fin galery -->
+      <!-- Inicio de formulario -->
+      <section>
+        <div class="formulario">
+          <div class="form-izquierdo">
+            <form class="form1">
+              <label for="nombre">Apellido y Nombre</label>
+              <input
+                type="text"
+                id="nombre"
+                placeholder="Nombre y apellido"
+                required
+              />
+              <br />
+              <label for="num">Telefono</label>
+              <input
+                type="tel"
+                id="num"
+                placeholder="Numero de telefono"
+                required
+              />
+              <br />
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Email" required />
+              <br />
+              <label for="comentario">Consulta</label>
+              <br />
+              <textarea id="comentario" cols="55" rows="12"> </textarea>
+              <input type="submit" value="Enviar" class="form-boton" />
+            </form>
+          </div>
+          <div class="form-derecho">
+            <form>
+              <iframe
+                class="form2"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2104.9220548110384!2d-58.83867998746565!3d-27.467926230128906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456ca494e3d8ef%3A0xe639feb3f6ec8f3d!2sJunin%20941%2C%20W3400%20Corrientes!5e0!3m2!1sen!2sar!4v1681512656131!5m2!1sen!2sar"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </form>
+
+            <div class="info">
+              <h3>Informacion</h3>
+              <br />
+              <img
+                src="assets/info/ubicacion.png"
+                alt="ubicacion"
+                height="20"
+              />
+              <p>Junin 941, W3400AVV Corrientes</p>
+              <br />
+              <img src="assets/info/telefono.png" alt="telefono" height="20" />
+              <p>+54 11111111</p>
+              <br />
+              <img src="assets/info/contactos.png" alt="contacto" height="20" />
+              <p>info@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin de formulario -->
+    </main>
+    <footer>
+      <div class="condiciones">
+        <h4>Codiciones</h4>
+        <p>Copyright © 2022-2023</p>
+      </div>
+
+      <div class="redes">
+        <h4>Redes Sociales</h4>
+
+        <a href="https://www.instagram.com/nicolasmaidana.j/" target="_blank"
+          ><img src="assets/footer/instagram.png" alt="ign"
+        /></a>
+
+        <a
+          href="https://www.linkedin.com/in/jose-nicolas-maidana-0151b1256/"
+          target="_blank"
+          ><img
+            src="assets/footer/linkedin.png"
+            alt="linkedin"
+            height="25"
+            width="25"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

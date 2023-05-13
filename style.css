@@ -1,0 +1,408 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(12, 11, 10);
+}
+nav {
+  padding: 25px;
+  position: relative;
+}
+.nav-img {
+  position: absolute;
+  height: 50px;
+  left: 2%;
+  top: 15%;
+}
+.nav-img:hover {
+  cursor: pointer;
+  transition: 0.3;
+  transform: scale(1.1);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  text-align: center;
+  list-style: none;
+  height: 25px;
+}
+li {
+  font-size: medium;
+  border-left: 2px solid peru;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
+}
+li:hover {
+  cursor: pointer;
+  box-shadow: 2px 4px 10px 4px peru;
+  transition: all 0.3s;
+  background-color: rgb(252, 234, 216);
+  border-radius: 15px;
+  transform: scale(1.1);
+  border: dashed 1px peru;
+}
+.nav_boton {
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  border-color: peru;
+  font-size: 16px;
+  position: absolute;
+  top: 20%;
+  right: 2.5%;
+}
+.nombre {
+  font-size: 25px;
+  position: absolute;
+  top: 3%;
+  color: peru;
+}
+.hero {
+  position: relative;
+  height: 600px;
+}
+.mivideo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.main_grande {
+  font-family: "Lobster", cursive;
+  position: absolute;
+  text-align: left;
+  top: 33%;
+  left: 10%;
+  color: black;
+  font-size: 60px;
+}
+.main_chico {
+  font-family: "Lobster", cursive;
+  position: absolute;
+  text-align: left;
+  top: 47%;
+  left: 10%;
+  width: 550px;
+  color: beige;
+  font-size: 18px;
+}
+.imagen {
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  right: 5%;
+  top: 28%;
+  opacity: 1;
+}
+.main_boton {
+  border-radius: 10px;
+  border-color: peru;
+  margin-top: 15px;
+  padding: 10px 20px 10px 20px;
+  border-color: peru;
+  font-size: 14px;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.main_boton:hover,
+.nav_boton:hover {
+  background-color: rgb(255, 221, 177);
+  cursor: pointer;
+  box-shadow: 2px 4px 10px 4px peru;
+  transition: all 0.3s;
+}
+.cards {
+  font-family: "Lobster", cursive;
+  height: auto;
+  background-color: rgb(78, 71, 60);
+  padding-bottom: 50px;
+}
+.titulo {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 35px;
+}
+.text {
+  text-align: center;
+  font-size: 17px;
+  color: peru;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.cards-orden {
+  position: relative;
+  text-align: center;
+}
+
+.icono {
+  width: 180px;
+  height: 180px;
+}
+.cards-orden div:hover {
+  transition: 0.3;
+  transform: scale(1.1);
+}
+.cards-orden div {
+  height: 400px;
+  width: 200px;
+  display: inline-block;
+  margin: 10px 100px 0 100px;
+}
+
+.cards-titulo {
+  font-size: 30px;
+}
+.cards-text {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.cards-boton {
+  border: 2px solid peru;
+  border-radius: 20px;
+  padding: 10px 25px 10px 25px;
+  margin-top: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cards-boton:hover {
+  background-color: peru;
+  box-shadow: 2px 4px 10px 4px peru;
+}
+.galery {
+  height: auto;
+}
+.galery-text {
+  font-family: "Lobster", cursive;
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+}
+.galery-parrafo {
+  font-family: "Lobster", cursive;
+  margin-top: 20px;
+}
+.galery-imagenes {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.galery-imagenes img {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 2%;
+}
+.formulario {
+  height: 600px;
+  background-color: rgb(78, 71, 60);
+}
+.form-izquierdo {
+  float: left;
+  background-color: rgb(122, 113, 99);
+
+  height: 500px;
+  width: 550px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.form-derecho {
+  position: relative;
+  float: right;
+
+  background-color: rgb(122, 113, 99);
+  height: 500px;
+  width: 550px;
+  margin-top: 50px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.form1 {
+  padding: 50px;
+}
+.form1 input {
+  margin-bottom: 15px;
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+}
+.form1 textarea {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+}
+.form2 {
+  position: absolute;
+  height: 200px;
+  width: 546px;
+  top: 10%;
+}
+.info {
+  padding-left: 25px;
+  position: absolute;
+  bottom: 20%;
+  width: 525px;
+  height: 125px;
+  background-color: rgb(122, 113, 99);
+}
+.info p,
+img {
+  display: inline-block;
+}
+.form-boton {
+  border-radius: 10px;
+  border-color: peru;
+  border-color: peru;
+  font-size: 14px;
+  padding: 5px 15px 5px 15px;
+}
+.form-boton:hover {
+  background-color: rgb(255, 221, 177);
+  cursor: pointer;
+  box-shadow: 2px 4px 10px 4px peru;
+  transition: 0.3;
+}
+footer {
+  height: 150px;
+  text-align: center;
+}
+footer div {
+  display: inline-block;
+}
+.redes {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+/* 350 650 3000 */
+@media (max-width: 1600px) {
+  .main_grande,
+  .main_chico,
+  .main_boton {
+    left: 10%;
+  }
+
+  .form-derecho {
+    margin-right: 200px;
+  }
+  .form-izquierdo {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 1499px) {
+  .main_grande,
+  .main_chico,
+  .main_boton {
+    left: 10%;
+  }
+  .form-derecho {
+    margin-right: 100px;
+  }
+  .form-izquierdo {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 1299px) {
+  .main_grande,
+  .main_chico,
+  .main_boton {
+    left: 10%;
+  }
+  .form-derecho {
+    margin-right: 50px;
+  }
+  .form-izquierdo {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 1279px) {
+  .imagen {
+    display: none;
+  }
+  .main_grande,
+  .main_chico,
+  .main_boton {
+    left: 20%;
+  }
+
+  .form-derecho {
+    margin-right: 30px;
+  }
+  .form-izquierdo {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1159px) {
+  .imagen {
+    display: none;
+  }
+  .main_grande,
+  .main_chico,
+  .main_boton {
+    left: 20%;
+  }
+  .formulario {
+    height: 1200px;
+  }
+  .form-derecho {
+    margin-right: 220px;
+  }
+  .form-izquierdo {
+    margin-left: 220px;
+  }
+}
+@media (max-width: 900px) {
+  body {
+    width: 900px;
+  }
+  .main_grande,
+  .main_chico,
+  .main_boton {
+    left: 15%;
+  }
+  .formulario {
+    height: 1200px;
+  }
+  .form-derecho {
+    margin-right: 150px;
+  }
+  .form-izquierdo {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    width: 900px;
+  }
+  .imagen {
+    display: none;
+  }
+  .main_grande,
+  .main_chico,
+  .main_boton {
+    left: 10%;
+  }
+  .formulario {
+    height: 1200px;
+  }
+  .form-derecho {
+    margin-right: 200px;
+  }
+  .form-izquierdo {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 600px;
+  }
+  .form-derecho {
+    margin-right: 25px;
+  }
+  .form-izquierdo {
+    margin-left: 25px;
+  }
+}
